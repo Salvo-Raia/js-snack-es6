@@ -13,7 +13,6 @@ const bikeExpo = [
 console.log("La bici più leggera è la nostra fantastica", bikeExpo[3].Name, "dal peso di", bikeExpo[3].Peso, "Kg");
 console.log("Vuoi dare un'occhiata alle altre?");
 console.table(bikeExpo)
-// TODO: Voglio provare una soluzione dinamica. Se non conosco i pesi e voglio una funzione che trovi da sola la più leggera?!
 
 // Snack 2 //
 console.log("%cSnack 2", "background: black; color: white; font-size: 20px");
