@@ -10,9 +10,20 @@ const bikeExpo = [
     {Name: "Off-Road", Peso: 22}
 ]
 
-console.log("La bici più leggera è la nostra fantastica", bikeExpo[3].Name, "dal peso di", bikeExpo[3].Peso, "Kg");
+let theLightestBike = bikeExpo[0]; 
+
+for (let i = 1; i < bikeExpo.length; i++) {
+let currentBikeWeight = bikeExpo[i].Peso;
+let currentBike = bikeExpo[i];
+if (currentBikeWeight < theLightestBike.Peso) {
+    theLightestBike = currentBike; 
+} 
+}
+
+console.log("La bici più leggera è la nostra fantastica", theLightestBike.Name, "dal peso di", theLightestBike.Peso, "Kg");
 console.log("Vuoi dare un'occhiata alle altre?");
 console.table(bikeExpo)
+
 
 // Snack 2 //
 console.log("%cSnack 2", "background: black; color: white; font-size: 20px");
