@@ -31,27 +31,27 @@ console.table(soccerTeams)
 console.log("Le regole sono semplici: ogni 2 secondi simuleremo i risultati delle partite giocate dalle squadre. Per ogni girone di partite ti mostreremo il risultati di punti e i falli cumulati dalle squadre fin a quel momento");
 
 let oneSecond = 1000;
-let partita = 0;
+let gironePartita = 0;
 const simulazione = setInterval(function() {
     
     for (let i = 0; i < soccerTeams.length; i++) {
         soccerTeams[i].Points += randomNumbers(1, 8); 
         soccerTeams[i].Fouls += randomNumbers(1,3); 
     }
-    partita++;
-    console.log("Girone partite N°:", partita);
+    gironePartita++;
+    console.log("Girone partite N°:", gironePartita);
     console.table(soccerTeams)
 
-    if (partita === 5) {
-        clearInterval(simulazione)
+    if (gironePartita === 5) {
+        console.log("Il torneo è finito! Osserviamo un po' quanti falli hanno totalizzato le squadre:")
+        risultatiFinali(soccerTeams);
+        console.table(punteggiFinali);
+        clearInterval(simulazione);
     }
-
 }, oneSecond * 3)
 
-
-
-
 /* Funzioni */
+
 /**
  * This function generates a random number between min and max value (both min and max values included).
  * @param {number} min The minimum value
@@ -61,6 +61,20 @@ const simulazione = setInterval(function() {
 function randomNumbers (min, max) {
     return Math.floor(Math.random () * (max-min + 1) + min);
     
+}
+
+/**
+ * This function map an array to return a new array with just the desired object properties.
+ * @param {Array} arrayOriginale The original array to map.
+ * @return {Array} a new custom array.
+ */ 
+function risultatiFinali (arrayOriginale) {
+    punteggiFinali = arrayOriginale.map(function(singleTeam) {
+        return {
+            Name: singleTeam.Name,
+            Points: singleTeam.Fouls
+        }
+    })
 }
 
 
