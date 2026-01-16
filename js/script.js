@@ -7,3 +7,8 @@ const bikeExpo = [
     {Name: "Sport", Peso: 18},
     {Name: "Off-Road", Peso: 22}
 ]
+
+console.log("La bici più leggera è la nostra fantastica", bikeExpo[3].Name, "dal peso di", bikeExpo[3].Peso, "Kg");
+console.log("Vuoi dare un'occhiata alle altre?");
+console.table(bikeExpo)
+
