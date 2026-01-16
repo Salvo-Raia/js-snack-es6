@@ -12,7 +12,9 @@ const bikeExpo = [
 
 let theLightestBike = bikeExpo[0]; 
 
-for (let i = 1; i < bikeExpo.length; i++) {
+/* Parto da 1 perché la prima l'ho presa a riferimento e l'ho salvata in theLightestBike; 
+   cambia ogni volta che ne salta fuori una più leggera */
+for (let i = 1; i < bikeExpo.length; i++) { 
 let currentBikeWeight = bikeExpo[i].Peso;
 let currentBike = bikeExpo[i];
 if (currentBikeWeight < theLightestBike.Peso) {
