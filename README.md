@@ -1,6 +1,8 @@
-![Boolean Tech Academy](https://img.shields.io/badge/Boolean_Tech_Academy-001632?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Boolean_Tech_Academy-1565C0?style=for-the-badge)
 
-# 🎓 Exercise 27/50 - Arrays and Objects Snacks
+# 🎓 Exercise 27/50: Arrays and Objects Snacks
+
+Working with JavaScript arrays of objects to compare property values, generate random data, update object properties, and create new arrays containing selected information.
 
 ## 📌 Project Overview
 
@@ -17,7 +19,7 @@ Practice working with **arrays of objects**, accessing object properties, genera
 
 **Important:** You are free to invent the objects and their characteristics. Choose any names and values you like, as long as you respect the required structure and logic of each exercise.
 
-### 🚲 Snack 1 - Racing Bikes
+#### Snack 1 - Racing Bikes
 
 Create an array of objects representing racing bikes.
 
@@ -28,7 +30,7 @@ Each object must have the following properties:
 
 Once the array has been created, find and display the bike with the lowest weight.
 
-### ⚽ Snack 2 - Football Teams
+#### Snack 2 - Football Teams
 
 Create an array of objects representing football teams.
 
@@ -61,4 +63,4 @@ Then:
 
 ## ©️ Credits
 
-Exercise assigned by **Boolean Tech Academy** as part of the Web Development course - Class 152 - Year 2025-2026
+Exercise assigned by **Boolean Tech Academy** as part of the Web Development course (Class 152, A.Y. 2025–2026).
