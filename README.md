@@ -1,25 +1,22 @@
 ![Static Badge](https://img.shields.io/badge/Boolean_Tech_Academy-1565C0?style=for-the-badge)
 
-# 🎓 Exercise 27/50: Arrays and Objects Snacks
+# Exercise 27/50: Arrays and Objects Snacks
 
 Working with JavaScript arrays of objects to compare property values, generate random data, update object properties, and create new arrays containing selected information.
 
-## 📌 Project Overview
+## Project overview
 
-| Property | Details |
-|:--|:--|
-| Repository | `js-snack-es6` |
-| Category | Boolean Tech Academy |
-| Type | Exercise |
-| Exercise | 27/50 |
+| Repository | Project | Category | Main Focus | Exercise |
+|:--|:--|:--|:--|:--|
+| js-snack-es6 | Arrays and Objects Snacks | Exercise | JavaScript arrays of objects & Data manipulation | 27/50 |
 
-## 🎯 Assignment
+## Assignment
 
 Practice working with **arrays of objects**, accessing object properties, generating random values and creating new arrays from existing data.
 
 **Important:** You are free to invent the objects and their characteristics. Choose any names and values you like, as long as you respect the required structure and logic of each exercise.
 
-#### Snack 1 - Racing Bikes
+#### Snack 1: Racing Bikes
 
 Create an array of objects representing racing bikes.
 
@@ -30,7 +27,7 @@ Each object must have the following properties:
 
 Once the array has been created, find and display the bike with the lowest weight.
 
-#### Snack 2 - Football Teams
+#### Snack 2: Football Teams
 
 Create an array of objects representing football teams.
 
@@ -48,11 +45,11 @@ Then:
 2. Create a new array containing only the team names and the number of fouls committed.
 3. Print the new array to the console.
 
-## 🛠️ Technologies
+## Technologies
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-## 💡 What I Learned
+## What I learned
 
 - Creating and managing arrays of objects.
 - Defining and accessing object properties.
@@ -61,6 +58,6 @@ Then:
 - Updating object properties.
 - Creating new arrays by selecting specific properties from existing objects.
 
-## ©️ Credits
+## Credits
 
-Exercise assigned by **Boolean Tech Academy** as part of the Web Development course (Class 152, A.Y. 2025–2026).
+Exercise assigned by **Boolean Tech Academy** as part of the Web Development course (Class 152, A.Y. 2025-2026).
