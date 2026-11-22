@@ -16,22 +16,22 @@ Practice working with **arrays of objects**, accessing object properties, genera
 
 **Important:** You are free to invent the objects and their characteristics. Choose any names and values you like, as long as you respect the required structure and logic of each exercise.
 
-#### Snack 1: Racing Bikes
+#### Snack 1: Racing bikes
 
 Create an array of objects representing racing bikes.
 
-Each object must have the following properties:
+Each object must have the following properties.
 
 - `name`: the bike's name.
 - `weight`: the bike's weight.
 
 Once the array has been created, find and display the bike with the lowest weight.
 
-#### Snack 2: Football Teams
+#### Snack 2: Football teams
 
 Create an array of objects representing football teams.
 
-Each team must have the following properties:
+Each team must have the following properties.
 
 - `name`: the team's name.
 - `points`: points earned.
