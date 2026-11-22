@@ -8,7 +8,7 @@ Working with JavaScript arrays of objects to compare property values, generate r
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| js-snack-es6 | Arrays and Objects Snacks | Exercise | JavaScript arrays of objects & Data manipulation | 27/50 |
+| js-snack-es6 | Arrays and Objects Snacks | Exercise | JavaScript array of objects & Data manipulation | 27/50 |
 
 ## Assignment
 
