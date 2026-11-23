@@ -8,7 +8,7 @@ Working with JavaScript arrays of objects to compare property values, generate r
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| js-snack-es6 | Arrays and Objects Snacks | Exercise | JavaScript, array of objects & Data manipulation | 27/50 |
+| js-snack-es6 | Arrays and Objects Snacks | Exercise | JavaScript, array of objects, data manipulation | 27/50 |
 
 ## Assignment
 
@@ -20,7 +20,7 @@ Practice working with **arrays of objects**, accessing object properties, genera
 
 Create an array of objects representing racing bikes.
 
-Each object must have the following properties.
+Each object must include the following properties.
 
 - `name`: the bike's name.
 - `weight`: the bike's weight.
